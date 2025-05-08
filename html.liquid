@@ -1,1 +1,10 @@
+<div id="sinpdes" class="product-description">
 
+             <div id="shortext_display"> {{ product.description | truncatewords: 50 }}</div>
+             <button id="toggle-description" class="toggle-button"> Lees verder</button>
+              <div id="description-content" class="description-content" style="display: none;">
+                  {{ product.description }}
+              </div>
+
+
+          </div>
